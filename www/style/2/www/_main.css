@@ -308,7 +308,7 @@ input, button, textarea, select {
 
 body {
     font: 18px 'Metal Mania', cursive;
-    color:#1e230b;
+    color:#4B4D4B;
     *font-size: small;
     *font: x-small;
 }
@@ -7849,10 +7849,10 @@ li.ttab_current, li.ttab:hover {
 
 div.title {
     font-size: 150%;
-    font-weight: bold;
+    font-weight: lighter;
     margin-top: 5px;
     margin-bottom: 10px;
-    color: #ffffff ;
+    color: #0B290F;
 }
 
 .q-counter {
