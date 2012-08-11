@@ -9828,3 +9828,53 @@ div.onesub {
     margin-right: 1em;
 }
 
+.votebtns2 {
+    text-align: center;
+}
+
+.votebtns2 a {
+    background-image: url('../images/rating_thumbs.png');
+    background-repeat: repeat-y;
+    vertical-align: middle;
+    height: 22px;
+    font-size: 200%;
+    
+}
+
+.votebtns2 a.thumbup {
+    background-position: 0px -57px;
+}
+
+.votebtns2 a.thumbup:hover, .votebtns a.thumbupon, div.voteup {
+    background-position: 0px -38px;
+}
+
+div.vote {
+    margin: 10px;
+    background-image: url('../images/rating_thumbs.png');
+    background-repeat: repeat-y;
+    vertical-align: middle;
+    height: 18px;
+    width: 100px;
+    padding-left: 23px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.votebtns2   a.thumbdown {
+    background-position: 0px -19px;
+    color:red;
+}
+
+.votebtns2   a.thumbdown:hover {
+    background-position: 0px 0px;
+}
+
+.votebtns2 a.favorite-mark {
+    position: relative;
+    float: left;
+    margin-top: 5px;
+    background-position: -20px 0px;
+}
+
+
